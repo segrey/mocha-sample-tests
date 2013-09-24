@@ -1,0 +1,10 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts" : {
+    "test": "node_modules/mocha/bin/mocha --ui tdd prime-numbers/test"
+  },
+  "devDependencies" : {
+    "mocha" : "1.13.0"
+  }
+}

@@ -1,7 +1,27 @@
+var should = require('should');
+
 describe('Array', function(){
   describe('#indexOf()', function(){
-    it('should find', function(done){
-      [1,2,3].indexOf(2).should.equal(1);
+    it("my error", function () {
+      a.a = 1;
+    });
+    it("my fail", function () {
+      [1,2,3].indexOf(5).should.equal(1);
+    });
+    it("my aync fail", function (done) {
+      setTimeout(function() {
+        [1,2,3].indexOf(5).should.equal(1);
+        [1,2,3].indexOf(5).should.equal(1);
+        done();
+      }, 0);
+    });
+    it('my pass', function () {
+      [1,2,3].indexOf(5).should.equal(-1);
+    });
+    it.only('my function cmp', function () {
+      var f = function () {};
+      var o = {};
+      o.should.equal(f);
     });
   });
 });

@@ -8,7 +8,7 @@ describe('Array', function(){
     it("my fail", function () {
       [1,2,3].indexOf(5).should.equal(1);
     });
-    it("my aync fail", function (done) {
+    it("my async fail", function (done) {
       setTimeout(function() {
         [1,2,3].indexOf(5).should.equal(1);
         [1,2,3].indexOf(5).should.equal(1);
@@ -18,7 +18,7 @@ describe('Array', function(){
     it('my pass', function () {
       [1,2,3].indexOf(5).should.equal(-1);
     });
-    it.only('my function cmp', function () {
+    it('my function cmp', function () {
       var f = function () {};
       var o = {};
       o.should.equal(f);

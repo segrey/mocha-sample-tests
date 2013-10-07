@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bdd-array-example" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <working-directory>$PROJECT_DIR$/bdd-array-example</working-directory>
+    <test-directory>$PROJECT_DIR$/bdd-array-example</test-directory>
+    <pass-parent-env>true</pass-parent-env>
+    <envs />
+    <ui>BDD</ui>
+    <require-module>$PROJECT_DIR$/node_modules/should</require-module>
+    <RunnerSettings RunnerId="MochaDebugRunner" />
+    <RunnerSettings RunnerId="RunnerForMochaJavaScript" />
+    <ConfigurationWrapper RunnerId="MochaDebugRunner" />
+    <ConfigurationWrapper RunnerId="RunnerForMochaJavaScript" />
+    <method />
+  </configuration>
+</component>

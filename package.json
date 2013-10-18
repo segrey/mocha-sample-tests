@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "mocha-sample-tests",
   "version": "0.0.1",
   "scripts" : {
     "test": "node_modules/mocha/bin/mocha --ui tdd prime-numbers/test"

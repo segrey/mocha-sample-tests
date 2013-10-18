@@ -5,7 +5,7 @@
     <pass-parent-env>true</pass-parent-env>
     <envs />
     <ui>BDD</ui>
-    <require-module>$PROJECT_DIR$/node_modules/should</require-module>
+    <require />
     <RunnerSettings RunnerId="MochaDebugRunner" />
     <RunnerSettings RunnerId="RunnerForMochaJavaScript" />
     <ConfigurationWrapper RunnerId="MochaDebugRunner" />

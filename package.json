@@ -5,6 +5,7 @@
     "test": "node_modules/mocha/bin/mocha --ui tdd prime-numbers/test"
   },
   "devDependencies" : {
-    "mocha" : "1.13.0"
+    "mocha" : "1.13.*",
+    "should" : "*"
   }
 }

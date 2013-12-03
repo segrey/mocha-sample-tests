@@ -1,21 +1,16 @@
-var expect = require('chai').expect;
-var assert = require('chai').assert;
-var should = require('chai').should;
+var chai = require('chai');
+var expect = chai.expect;
+var assert = chai.assert;
+var should = chai.should(); //actually call the function
 
-describe('Suite', function(){
-  describe('#indexOf()', function(){
-    it('we check should', function(){
-      [1,2,3].indexOf(4).should.equal(-1);
-    });
+describe('chai', function () {
+  it('should', function () {
+    [1, 2, 3].indexOf(4).should.equal(-1);
   });
-  describe('check expect', function(){
-    it('we check expect', function(){
-      expect(true).toBe(true);
-    })
+  it('expect', function () {
+    expect(true).to.be.equal(true);
   });
-  describe('#indexOf()1', function(){
-    it('we check assert', function(){
-      assert.equal(-1, [1,2,3].indexOf(5));
-    })
-  })
+  it('assert', function () {
+    assert.equal(-1, [1, 2, 3].indexOf(5));
+  });
 });

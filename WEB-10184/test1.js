@@ -8,9 +8,10 @@ http.createServer(function (req, res) {
 console.log('Server running at http://127.0.0.1:1337/');
 
 
-describe("Test1", function () {
-    it('should pass', function() {
+describe('Suite1', function () {
+  describe('inner suite', function () {
+    it('should pass', function () {
       expect(true).to.be.true;
     });
-  }
-);
+  });
+});

@@ -2,6 +2,10 @@ function ok(expr, msg) {
   if (!expr) throw new Error(msg);
 }
 
+test('default module test', function(){
+  ok('foo'.length == 3);
+});
+
 suite('Array');
 
 test('#length', function(){

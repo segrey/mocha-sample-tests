@@ -1,3 +1,5 @@
+var assert = require('assert');
+
 suite('Array', function(){
   suite('#indexOf()', function(){
     test('should return -1 when not present', function(){

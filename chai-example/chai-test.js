@@ -12,5 +12,6 @@ describe('chai', function () {
   });
   it('assert', function () {
     assert.equal(-1, [1, 2, 3].indexOf(5));
+    expect('First line\nSecond line wrong\nThird line').to.equal('First line\nSecond line\nThird line');
   });
 });

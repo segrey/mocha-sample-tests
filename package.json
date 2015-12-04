@@ -5,9 +5,10 @@
     "test": "node_modules/mocha/bin/mocha --ui tdd prime-numbers/test"
   },
   "devDependencies" : {
-    "mocha" : "1.15.*",
+    "mocha" : "*",
     "should" : "*",
     "chai": "*",
-    "coffee-script" : "*"
+    "coffee-script" : "*",
+    "mocha-given" : "*"
   }
 }

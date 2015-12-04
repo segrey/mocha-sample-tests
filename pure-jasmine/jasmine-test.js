@@ -1,11 +1,8 @@
-describe("hasOwnProperty", function() {
-  it("test", function () {
-    expect(true).to.be(true);
-  });
-});
-
-describe("A suite", function() {
-  it("contains spec with an expectation", function() {
-    expect(true).toBe(true);
+var expect = require('chai').expect;
+describe("suite name", function () {
+  it("spec name", function () {
+    var foo = {a: 42};
+    foo.bar = foo.baz;
+    expect(foo).to.deep.equal({a: 42});
   });
 });
